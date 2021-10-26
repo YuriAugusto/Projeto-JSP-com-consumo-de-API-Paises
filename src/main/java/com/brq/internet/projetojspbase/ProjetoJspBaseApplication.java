@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = { "com.brq.internet.projetojspbase" })
 public class ProjetoJspBaseApplication extends SpringBootServletInitializer {
 
-	public final static String PATH_API_BASE = "https://restcountries.eu/rest/v2/all";
+	public final static String PATH_API_BASE = "https://restcountries.com/v2/all";
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ProjetoJspBaseApplication.class, args);
